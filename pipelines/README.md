@@ -66,5 +66,6 @@ Execute python scripts
 - **build-nodejs**  
 Build node JS applications using npm tool
 
-
+- **update-build-number**  
+Update pipeline name by changing build number
 
