@@ -1,6 +1,5 @@
 # Introduction 
-Azure DevOps pipelines for Udemy course
-
+A high level description of code samples and pipelines that are included in the Udemy course.
 
 # Pipelines
 
