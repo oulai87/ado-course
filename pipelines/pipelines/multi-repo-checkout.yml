@@ -24,10 +24,13 @@ resources:
 steps:
 
 - checkout: self
+  displayName: checkout self repository
   path: "s/Source"
 
 - checkout: repo1
+  displayName: checkout repo1
   path: "s/code"
 
 - checkout: githubrepo
+  displayName: checkout githubrepo
   path: "s/github"
