@@ -32,7 +32,7 @@ steps:
       inputs:
         targetType: 'inline'
         script: |
-          Write-Host "Ubuntu or windows selected"
+          Write-Host "macOS selected"
       condition: eq(variables.myvar, 'macOS-latest')    
     
     - ${{ if eq(parameters.image, 'windows-latest') }}: 
