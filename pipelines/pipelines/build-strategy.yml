@@ -14,7 +14,7 @@ trigger:
     include:
       - v2.*
     exclude:
-      - v2.0
+      - v5.0
 
 pr:
   branches:
