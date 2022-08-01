@@ -19,6 +19,13 @@ steps:
 - checkout: repo1
   path: "s/projects"
 
+- task: NuGetCommand@2
+  displayName: nuget restore
+  inputs:
+    command: 'restore'
+    restoreSolution: '$(Build.SourcesDirectory)/projects/Front/**\*.sln'
+    feedsToUse: 'config'
+
 - task: VSBuild@1
   displayName: Build appservice
   inputs:
