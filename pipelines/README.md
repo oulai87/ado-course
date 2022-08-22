@@ -69,3 +69,5 @@ Build node JS applications using npm tool
 - **update-build-number**  
 Update pipeline name by changing build number
 
+- **install-win-software**  
+Install software (exe, msi) on windows machines
